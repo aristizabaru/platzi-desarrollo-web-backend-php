@@ -18,4 +18,6 @@ git clone https://github.com/aristizabaru/platzi_desarrollo_web_backend_php.git
 
 ## Courses
 
-This repository is divided by the courses that are part of the general program, each course deals with a different topic divided by sections from which the examples or tests come out.
+This repository is divided by the courses that are part of the general program, each course deals with
+
+### [Basic PHP Course](curso_basico_php)
