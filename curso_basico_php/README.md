@@ -1,4 +1,4 @@
-# Basic PHP Course
+# Basic PHP Course: Installation, fundamentals and operators
 
 ## About
 
