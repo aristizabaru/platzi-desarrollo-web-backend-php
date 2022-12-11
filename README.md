@@ -23,3 +23,5 @@ This repository is divided by the courses that are part of the general program, 
 ### [Basic PHP Course: Installation, fundamentals and operators](curso_basico_php)
 
 ### [Basic PHP Course: Arrays, Functions, and Control Structures](curso_basico_php_2)
+
+### [Practical PHP Course](curso_practico_php)
