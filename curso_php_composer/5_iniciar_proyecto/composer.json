@@ -1,0 +1,24 @@
+{
+  "name": "aristizabaru/init_proyect",
+  "description": "Ejemplo de configuración de proyecto con Composer",
+  "type": "library",
+  "require": {
+    "nesbot/carbon": "3.x-dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "10.0.x-dev"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Aristizabaru\\InitProyect\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Andrés Aristizábal",
+      "email": "andres.aristizabal@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
