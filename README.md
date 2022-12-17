@@ -25,3 +25,5 @@ This repository is divided by the courses that are part of the general program, 
 ### [Basic PHP Course: Arrays, Functions, and Control Structures](curso_basico_php_2)
 
 ### [Practical PHP Course](curso_practico_php)
+
+### [PHP with HTML integration course](curso_integracion_php_html)
