@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario tipos de input</title>
+  </head>
+  <style>
+    div {
+      margin: 25px 0;
+    }
+  </style>
+  <body>
+    <!--
+      Para envío de imágenes el tipo de encripración en el parámetro 'enctype'
+      debe cambiar a 'multipart/form-data'
+
+      En el siguiente formulario se explora el envío desde distintos
+      tipos de input
+    -->
+    <form action="10_tipos_input_server.php" method="post" enctype="multipart/form-data">
+      <!-- Input simple -->
+      <div>
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" id="nombre" />
+      </div>
+      <!-- Arreglos -->
+      <div>
+        <label>Personas: </label>
+        <input type="text" name="personas[]" />
+        <input type="text" name="personas[]" />
+        <input type="text" name="personas[]" />
+      </div>
+      <!-- Arreglos Asociativos -->
+      <div>
+        <label>Persona: </label>
+        <input type="text" placeholder="nombre" name="persona[nombre]" />
+        <input type="email" placeholder="email" name="persona[email]" />
+        <input type="text" placeholder="edad" inputmode="numeric" name="persona[edad]" />
+      </div>
+      <!-- Checkbox -->
+      <div>
+        <input type="checkbox" name="list_1" value="valor_1" />
+        <input type="checkbox" name="list_2" value="valor_2" />
+        <input type="checkbox" name="list_3" value="valor_3" />
+      </div>
+      <!-- Radio -->
+      <div>
+        <label for="colombia">Colombia</label>
+        <input type="radio" name="pais" value="Colombia" id="colombia" />
+        <label for="argentina">Argentina</label>
+        <input type="radio" name="pais" value="Argentina" id="argentina" />
+        <label for="peru">Perú</label>
+        <input type="radio" name="pais" value="Perú" id="peru" />
+      </div>
+      <!-- Multiples Archivos -->
+      <!-- 
+        Es importante que el atributo name envíe los arhivos a php como
+        un array usando las llaves []
+
+        También es necesario incluir el atributo multiple
+      -->
+      <div>
+        <label for="galeria">Carga tus imágenes</label>
+        <input type="file" multiple name="galeria[]" id="galeria" />
+      </div>
+      <button type="submit">Mandar formulario</button>
+    </form>
+  </body>
+</html>

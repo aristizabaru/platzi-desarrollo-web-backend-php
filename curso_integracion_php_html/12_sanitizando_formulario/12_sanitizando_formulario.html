@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanitizando Formulario</title>
+    <style>
+      div {
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="12_sanitizando_formulario_server.php" method="post">
+      <div><label for="nombre">Nombre</label> <input type="text" name="nombre" id="nombre" /></div>
+      <div><label for="username">Username</label> <input type="text" name="username" id="username" /></div>
+      <div><label for="email">Email</label> <input type="email" name="email" id="email" /></div>
+      <div><label for="edad">Edad</label> <input type="text" inputmode="numeric" name="edad" id="edad" /></div>
+      <button type="submit">Mandar formulario</button>
+    </form>
+  </body>
+</html>
