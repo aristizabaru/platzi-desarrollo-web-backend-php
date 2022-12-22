@@ -1,0 +1,1 @@
+<?php // Este es un archivo de ejemplo
