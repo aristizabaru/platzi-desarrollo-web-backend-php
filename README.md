@@ -27,3 +27,5 @@ This repository is divided by the courses that are part of the general program, 
 ### [Practical PHP Course](curso_practico_php)
 
 ### [PHP with HTML integration course](curso_integracion_php_html)
+
+### [PHP with composer course](curso_php_composer)
