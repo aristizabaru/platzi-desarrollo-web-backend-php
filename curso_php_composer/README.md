@@ -30,12 +30,10 @@ Initialize a proyect using _composer init_ command
 
 ### [6_autoload](6_autoload)
 
-_autoload_ key configuration in _composer.json_ file:
+Explore the use of the _autoload_ key configuration in _composer.json_ file:
 
 - _files:_ In files the load of helper files is configured
 - _classmap:_ In classmap, folders that will have different classes are loaded directly
-- _psr-4:_ In psr-4 the project configuration is loaded, the namespace of the project
+- _psr-4:_ In psr-4 the project configuration and project namespace are loaded
 
 _composer dump_ is used to create the vendor file with the settings that have been used.
-
-### [6_autoload](6_autoload)
