@@ -29,3 +29,5 @@ This repository is divided by the courses that are part of the general program, 
 ### [PHP with HTML integration course](curso_integracion_php_html)
 
 ### [PHP with composer course](curso_php_composer)
+
+### [Data management with PHP](curso_manejo_datos_php)
